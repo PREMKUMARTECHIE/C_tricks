@@ -1,0 +1,17 @@
+#include <stdio.h>
+int x=10;
+f(int a,int b)  //by default return type int
+{   
+	return a;
+}
+
+int main(void) {
+	int x=99;
+	printf("%d",x);
+	f(67,78);
+	return 0;
+}
+
+
+Output:
+99
